@@ -1,4 +1,4 @@
-Nethya Nethya import DEV_USERS, INSPECTOR, REQUESTER, telethn
+from Nethya import DEV_USERS, INSPECTOR, REQUESTER, telethn
 
 IMMUNE_USERS = INSPECTOR.union(REQUESTER).union(DEV_USERS)
 
